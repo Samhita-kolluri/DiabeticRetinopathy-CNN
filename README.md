@@ -21,4 +21,4 @@ Splitting the data into training and testing sets before training the model. The
 For predicting two categories, the model utilizes three convolutional layers, each having a depth of 32. A Max Pooling layer is applied after all three convolutional layers with size (2,2). After pooling, the data is fed through a single dense layer of size 128, and finally to the output layer, consisting of 5 last dense layers.
 
 ## 7. Model Evaluation :
-After validating our model on a dataset of 17,563 fundus images. Our model was tested and the model was evaluated with 97.1% 
+After validating the model on a dataset of 17,563 fundus images. The model was tested and the model was evaluated with 97.1% 
